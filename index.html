@@ -3,26 +3,26 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Cookie Site Tutorial</title>
+		<title>The Kookie Bakery</title>
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 	</head>
 	<body>
 		<header>
-			<a href="" class="logo">Cookie<span>.</span></a>
+			<a href="" class="logo">The Kookie Bakery<span>.</span></a>
+			<div class="menuToggle"></div>
 			<ul class="navigation">
 				<li><a href="#banner">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#menu">Menu</a></li>
-				<li><a href="#expert">Expert</a></li>
-				<li><a href="#testimonials">Testimonials</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</header>
 
 		<section class="banner" id="banner">
 			<div class="content">
-				<h2>Always Choose Good</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor arcu nec mauris lacinia consectetur. In gravida consectetur leo vel condimentum. Sed porta eu massa at bibendum.</p>
+				<h2>The Kookie Bakery</h2>
+				<p>A bakery dedicated to providing fresh, delicious cookies for you, your family, and friends everyday of the week.</p>
 				<a href="#menu" class="btn">Our Menu</a>
 
 			</div>
@@ -32,7 +32,8 @@
 			<div class="row">
 				<div class="col50">
 					<h2 class="titleText"><span>A</span>bout Us</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar ullamcorper arcu facilisis sagittis. Vivamus tincidunt nulla at venenatis luctus. Morbi vehicula urna vitae metus blandit sollicitudin. Maecenas congue fermentum tincidunt. Ut nulla nulla, elementum sed pretium in, vulputate non nisi.<br><br> In egestas ipsum in dapibus porttitor. Aenean suscipit, tellus id lacinia scelerisque, eros nisi efficitur orci, vel convallis erat elit non elit. Nulla lectus lorem, accumsan a laoreet a, commodo vitae erat. Nullam sit amet molestie dui, eu sagittis quam.</p>
+					<p>The Kookie Company, was founded by Daphne Magsby after she discovered her great-grand mother's handwritten cookie recipes while helping her mother sort through boxes that were likely older than her. After spending the following weekend trying out the different recipes, there was no doubt these cookies were something special. </p> 
+					<br><br> <p>Upon letting family and friends try the cookies and hearing the rave reviews and requests that she make more for every occassion, Daphne knew she had to honor her great-grand mother's legacy by creating The Kookie Company and allowing everyone a taste cookie deliciousness.</p>
 				</div>
 
 				<div class="col50">
@@ -47,7 +48,7 @@
 		
 			<div class="title">
 				<h2 class="titleText"><span>O</span>ur Menu</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>A select assortment of only the best cookies.</p>
 			</div>
 
 			<div class="content">
@@ -92,16 +93,45 @@
 						<h3>Butter</h3>
 					</div>
 				</div>
-					
-				<div class="title">
-					<a href="" class="btn">View All</a>
-				</div>
 
 			</div>
 
-			
 		</section>
 
+		<section class="contact" id="contact">
+			
+			<div class="title">
+				<h2 class="titleText"><span>C</span>ontact Us</h2>
+				<p>Let us know if you have any questions.</p>
+			</div>
+
+			<form class="contactForm" netlify>
+				<h3>Send Message</h3>
+				<div class="inputBox">
+					<input type="text" placeholder="Name">
+				</div>
+				<div class="inputBox">
+					<input type="email" placeholder="Email">
+				</div>
+				<div class="inputBox">
+					<textarea placeholder="Message"></textarea>
+				</div>
+				<div class="inputBox">
+					<input type="submit" value="Send">
+				</div>
+			</form>
+
+		</section>
+
+		<footer class="copyrightText">
+			
+			<p>&copy Copyright 2021 <a href="#">The Kookie Bakery.</a> All Rights Reserved</p>
+			<div class="socials">
+				<a href="https://www.instagram.com/thekookiebakery/"><i class="fab fa-instagram"></i></a> 
+				<a href="https://www.tiktok.com/@thekookiebakery?lang=en"><i class="fab fa-tiktok"></i></a>
+			</div>
+	
+		</footer>
 
 		<script type="text/javascript" src="scripts/script.js"></script>
 	</body>

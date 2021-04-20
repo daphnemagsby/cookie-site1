@@ -1,3 +1,5 @@
-#Cookie Site 1
+# Cookie Site
 
-First attempt at creating a site for an upcoming bakery specializing in cookies
+Preliminary site for an upcoming bakery specializing in cookies
+
+## Visit
